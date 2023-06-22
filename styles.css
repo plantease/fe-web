@@ -132,7 +132,7 @@ table {
 
 body {
     padding-top: 84px;
-    background-image: url('assets/background_image.jpg');
+    /* background-image: url('assets/background_image.jpg'); */
 }
 
 header {
@@ -188,14 +188,14 @@ header {
 }
 
 .section>h3 {
-    background: #347357;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 8px 16px;
+    border-radius: 30px;
     font-style: normal;
     font-weight: 500;
     font-size: 11px;
     display: inline-block;
-    color: #fff;
+    color: #347357;
+    border: 1px solid #347357;
     margin-bottom: 20px;
 }
 
@@ -238,6 +238,7 @@ header {
 .number p {
     width: 30px;
     height: 30px;
+    font-size: 20px !important;
     display: flex;
     justify-content: center;
     background: #347357;
@@ -273,6 +274,7 @@ header {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
+    margin-bottom: 16px;
     line-height: 30px;
     color: #484848;
 }
@@ -359,7 +361,21 @@ footer.section p {
 
 @media screen and (max-width: 480px) {
     .section>h2 {
-        font-size: 40px;
-        line-height: 45px;
+        line-height: 40px;
+        font-weight: 700;
+        font-size: 1.75rem;
+    }
+
+    .section>p {
+        line-height: 1.5rem;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+    .section .btn {
+        padding: 8px 16px;
+    }
+    .demo {
+        width: 100%;
     }
 }
